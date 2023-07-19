@@ -9,6 +9,7 @@
  /* header section start hare */
  nav {
      max-width: 1440px;
+     width: 100%;
      height: 100px;
      background: #FFF;
      box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
@@ -38,7 +39,7 @@
 
  .logo-container p {
      text-align: center;
-     font-size: 45px;
+     font-size: 2.70em;
      font-weight: 700;
  }
 
@@ -89,7 +90,7 @@
 
  }
 
- section {
+ .banner-section {
      max-width: 1440px;
      margin: 0 auto;
      background: #FFF;
@@ -106,12 +107,12 @@
  }
 
  .colom-one {
-     
+
      fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
      background-image: url(images/Group\ 14.png);
      height: 100vh;
      width: 100%;
-     
+
 
  }
 
@@ -158,7 +159,7 @@
  }
 
  .btn-3 {
-    
+
      border-radius: 48px;
      background: #4EC5F7;
 
@@ -186,4 +187,99 @@
 
 
 
+ }
+
+ /* online funny section start hare */
+
+ .fun-title {
+     grid-area: ft;
+ }
+
+ .one {
+     grid-area: one;
+ }
+
+ .two {
+     grid-area: two;
+ }
+
+ .three {
+     grid-area: three;
+ }
+
+ .four {
+     grid-area: four;
+ }
+
+ .fun {
+     max-width: 1440px;
+     width: 100%;
+     margin: 64px auto 0px;
+
+
+
+
+ }
+
+ .fun-container {
+
+     margin: 0 100px;
+
+
+
+
+
+ }
+
+ .fun-container div img {
+     width: 250px;
+ }
+
+ .fun-grid {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     grid-template-areas: "ft ft ft ft"
+         "one two three four";
+
+ }
+
+
+
+
+ .game-title {
+    margin-top: 120px;
+     margin-bottom: 16px;
+     color: #0B0223;
+     font-size: 48px;
+     font-weight: 700;
+     text-align: center;
+ }
+
+ .game-description {
+
+     text-align: center;
+     color: #534C64;
+     text-align: center;
+     font-size: 18px;
+     font-weight: 400;
+     margin-bottom: 48px;
+     
+
+ }
+
+ .gradiant-color {
+     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+
+ .video-footer {
+     color: #534C64;
+     font-family: Work Sans;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 30px;
+     width: 270px;
  }
