@@ -5,6 +5,12 @@
      box-sizing: border-box;
  }
 
+ .logo-color {
+     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
 
  /* header section start hare */
  nav {
@@ -74,7 +80,7 @@
      margin-right: 24px;
  }
 
- .fa-brands {
+ .fa-youtube {
      margin-right: 16px;
      color: red;
  }
@@ -103,18 +109,8 @@
      height: 600px;
      gap: 1px;
 
-
  }
 
- .colom-one {
-
-     fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
-     background-image: url(images/Group\ 14.png);
-     height: 100vh;
-     width: 100%;
-
-
- }
 
  .all-text {
      margin-left: 100px;
@@ -247,7 +243,7 @@
 
 
  .game-title {
-    margin-top: 120px;
+     margin-top: 120px;
      margin-bottom: 16px;
      color: #0B0223;
      font-size: 48px;
@@ -263,7 +259,7 @@
      font-size: 18px;
      font-weight: 400;
      margin-bottom: 48px;
-     
+
 
  }
 
@@ -277,9 +273,127 @@
  .video-footer {
      color: #534C64;
      font-family: Work Sans;
-     font-size: 20px;
+     font-size: 16px;
      font-style: normal;
-     font-weight: 500;
+     font-weight: 400;
      line-height: 30px;
      width: 270px;
+ }
+
+ /* play game section start hare */
+ .play-game {
+     max-width: 1440px;
+     width: 100%;
+     height: 92vh;
+     margin: 120px auto 0;
+     overflow: hidden;
+ }
+
+ .game-container-flex {
+     display: flex;
+     margin: 0 100px;
+     align-items: center;
+
+
+ }
+
+ .colom-one-game .one {
+     width: 500px;
+     height: 480px;
+
+
+ }
+
+ .colom-one-game .two {
+     min-width: 230px;
+     height: 280px;
+     top: -180px;
+     left: 370px;
+ }
+
+ .item {
+     position: relative;
+
+
+ }
+
+ .two {}
+
+ .play-game-title {
+     font-size: 48px;
+     font-weight: 700;
+     width: 426px;
+
+ }
+
+ .play-game-description {
+     color: #534C64;
+     font-family: Work Sans;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 30px;
+     width: 483px;
+
+ }
+ .div-flex{
+    display: flex;
+    text-align: center;
+    
+ }
+ .same{
+    align-items: center;
+ }
+
+
+
+ /* footer sectio start hare */
+ footer {
+     max-width: 1440px;
+     padding-top: 80px;
+     text-align: center;
+     color: white;
+     background-color: #0B0223;
+     width: 100%;
+     height: 80vh;
+     margin: auto;
+     align-content: center;
+
+
+ }
+
+ .fa-facebook {
+     color: cornflowerblue;
+     background-color: #FFF;
+
+ }
+
+ .footer-logo {
+     display: inline-flex;
+     justify-content: center;
+     font-size: 45px;
+     font-weight: 700;
+     margin-bottom: 60px;
+
+ }
+
+ .font-footer {
+    font-size: 34px;
+     padding: 10px;
+ }
+
+ .first-footer-list {
+     margin-bottom: 50px;
+     color: #FFF;
+     text-align: center;
+     font-family: Work Sans;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+ }
+
+ .second-footer-list {
+     margin-top: 30px;
+     margin-bottom: 30px;
  }
