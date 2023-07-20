@@ -132,11 +132,6 @@
      padding-bottom: 17px;
  }
 
- .banner-btn {
-     display: flex;
-
-     gap: 10px;
- }
 
  .btn-2 {
      border-radius: 48px;
@@ -211,7 +206,7 @@
      width: 250px;
 
  }
-
+/* 
  .play {
      position: relative;
  }
@@ -230,7 +225,7 @@
      font-weight: 600;
     color: #FF42A5;
 
- }
+ } */
 
  
  .fun-grid {
