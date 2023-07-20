@@ -338,36 +338,27 @@
  }
 
  /* more icon section start */
+ .more-icon-container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px;
+ }
 
  .icon-section {
-     max-width: 1440px;
-     height: 427px;
-
-
-     margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    margin: 0 auto;
+   
  }
-
- .first-row {
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     gap: 15px;
-     margin-top: 100px;
-     margin-bottom: 56px;
-
- }
-
- .second-row {
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     gap: 15px;
-     padding-bottom: 140px;
-
- }
+.on{
+    display: flex;
+}
 
  .btn-icon {
      display: flex;
+     gap: 20px;
      align-items: center;
      background: #FFF;
      width: 290px;
