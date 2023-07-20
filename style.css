@@ -206,7 +206,8 @@
      width: 250px;
 
  }
-/* 
+
+ /* 
  .play {
      position: relative;
  }
@@ -227,7 +228,7 @@
 
  } */
 
- 
+
  .fun-grid {
      display: grid;
      grid-template-columns: repeat(4, 1fr);
@@ -394,7 +395,7 @@
  /* footer section start hare */
  footer {
      max-width: 1440px;
-     padding-top: 80px;
+     padding-top: 50px;
      text-align: center;
      color: white;
      background-color: #0B0223;
@@ -402,11 +403,12 @@
      height: 500px;
      margin: auto;
      align-content: center;
+    
  }
 
  .fa-facebook {
      color: cornflowerblue;
-     background-color: #FFF;
+
 
  }
 
@@ -420,24 +422,28 @@
  }
 
  .font-footer {
+     display: flex;
      font-size: 34px;
      padding: 10px;
+     justify-content: center;
+     gap: 30px;
+     margin-top: 20px;
  }
 
  .first-footer-list {
-     margin-bottom: 50px;
-     color: #FFF;
-     text-align: center;
-     font-family: Work Sans;
-     font-size: 18px;
-     font-style: normal;
-     font-weight: 600;
-     line-height: normal;
+     display: flex;
+     justify-content: center;
+     gap: 30px;
  }
 
  .second-footer-list {
+     display: flex;
+     justify-content: center;
+     gap: 30px;
      margin-top: 30px;
+
      margin-bottom: 30px;
+     color: white;
  }
 
  /* footer section end hare */

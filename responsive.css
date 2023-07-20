@@ -246,4 +246,36 @@
 
     }
 
+
+    /* nine more icon */
+
+
+    .first-row{
+        display:flex;
+       justify-content: center;
+
+       
+    }
+
+    footer{
+        margin-top: 0;
+        width: 100%;
+    }
+    small{
+        font-size: 12px;
+    }
+    .first-footer-list{
+        display: grid;
+        grid-template-columns: auto auto auto ;
+    }
+    .font-footer{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        row-gap: 20px;
+    }
+    .second-footer-list{
+        display: grid;
+        grid-template-columns: auto auto ;
+        row-gap: 20px;
+    }
 }
