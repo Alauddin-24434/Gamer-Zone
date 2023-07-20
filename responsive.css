@@ -1,154 +1,249 @@
 /* mobile screen */
 
 @media screen and (max-width:576px) {
-/* nav section start hare */
-    nav{
+
+    /* nav section start hare */
+    nav {
         height: auto;
         width: 100%;
         height: 50vh;
-        border: 2px solid red;
         align-items: center;
         text-align: center;
         justify-content: center;
         margin: auto;
-    
+
     }
+
     .nav-container {
         flex-direction: column;
         align-items: center;
-        border: 2px solid red;
-        
-       
+
     }
-    .logo-container{
+
+    .logo-container {
         margin: 0;
         padding: 0;
-        gap: 0;
-       
-        
+        gap:2px;
+
+
     }
-    .nav-list-container{
+    .logo-container p {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+    }
+   
+   
+
+    .nav-list-container {
 
         flex-direction: column;
-        margin:20px auto;
+        margin: 20px auto;
     }
+
+    .nav-btn {
+        width: 180px;
+        height: 40px;
+        text-align: center;
+        border-radius: 8px;
+        background: rgba(11, 2, 35, 0.10);
+        border: none;
+        font-size: 20px;
+
+    }
+
+    .flow {
+        margin-right: 10px;
+        font-size: 18px;
+    }
+
+    .fa-youtube {
+        margin-right: 10px;
+    }
+    
+
 
     /* nav banner section start hare */
 
-    .banner-section{
-     
+    .banner-section {}
+
+    .banner-container {
+        margin-top: 70px;
+        flex-direction: column-reverse;
+        overflow: hidden;
+        width: 100%;
+        justify-content: center;
     }
-    
- .banner-container{
-    margin-top: 70px;
-    flex-direction: column-reverse;
-    border: 2px solid green;
-    overflow: hidden;
-    width: 100%;
-    justify-content: center;
- }
 
- .colom-one{
-    width: 60%;
-    height:60vh;
-    margin: auto;
-    margin-top: 50px;
-    align-items: center;
-   
- }
- .colom-two {
-    align-items: center;
-    margin: 0 auto;
+    .colom-one {
+        width: 60%;
+        height: 60vh;
+        margin: auto;
+        margin-top: 50px;
+        align-items: center;
 
- }
- .colom-two img{
-    width:90%;
-    height:300px;
-    padding-right: 0;
-    
-    
-   
- }
- .all-text {
-    display: flex;
-    flex-direction: column;
-    margin:0;
-    padding: 0;
-    border: 2px solid yellow;
-    justify-content: center;
+    }
 
-    
-    
-   
-    
-}
-.all-text .banner-title {
-    color: #0B0223;
-    font-size:20px;
-    font-weight: 600;
-    line-height: normal;
-    text-transform: uppercase;
-}
-.all-text p {
-    font-size: 30px;
-    font-weight: 800;
-    margin-bottom: 24px;
+    .colom-two {
+        align-items: center;
+        margin: 0 auto;
 
-}
+    }
+
+    .colom-two img {
+        width: 90%;
+        height: 300px;
+        padding-right: 0;
 
 
-.header-button{
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}
-.all-text button{
-    font-size: 14px;
-    font-weight: 600px;
-    text-transform: uppercase;
-    border: none;
-    border-radius: 20px;
-    padding: 12px;
-    
-}
-/* nav and banner section end hare */
 
-/* online funny section start hare  */
-.fun {
+    }
 
-    width: 100%;
-    border: 5px solid red;
+    .all-text {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
 
 
-}
 
-.fun-container {
-    border: 5px solid rgb(24, 167, 172);
-    margin: auto;
-}
-.fun-title{
-    width: 100%;
-   
-   
-}
-.fun-grid {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    border: 2px solid lawngreen;
-    margin: 0 auto;
-}
 
-.fun-grid .image .video-footer{
-    border: 2px solid rgb(252, 0, 147);
-  margin-top: 12px;
-  font-size: 16px;
-  font-weight: 400;
-  
-   
-}
-.fun-grid .image {
-    margin-top: 40px;
-}
+
+    }
+
+    .all-text .banner-title {
+        color: #0B0223;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .all-text p {
+        font-size: 30px;
+        font-weight: 800;
+        margin-bottom: 24px;
+
+    }
+
+
+    .header-button {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .all-text button {
+        font-size: 14px;
+        font-weight: 600px;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 20px;
+        padding: 12px;
+
+    }
+
+    /* nav and banner section end hare */
+
+    /* online funny section start hare  */
+    .fun {
+
+        width: 100%;
+
+
+    }
+
+    .fun-container {
+
+        margin: auto;
+    }
+
+    .fun-title {
+        width: 100%;
+
+
+    }
+
+    .fun-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin: 0 auto;
+    }
+
+    .fun-grid .image .video-footer {
+
+        margin-top: 12px;
+        font-size: 16px;
+        font-weight: 400;
+
+
+    }
+
+    .fun-grid .image {
+        margin-top: 40px;
+    }
+
+    /* online play game start hare */
+    .play-game {
+
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .game-container-flex {
+        flex-direction: column-reverse;
+
+        margin: 0;
+        align-items: center;
+
+    }
+
+    .colom-two-game {
+        width: 100%;
+        height: 10vh;
+
+    }
+
+    .colom-one-game {
+        width: 100%;
+        height: 100vh;
+        padding-right: 0;
+
+    }
+
+    .responsive-img {
+        width: 300px;
+    }
+
+    .my-item {}
+
+    .colom-one-game .two {
+        height: 280px;
+        top: -212px;
+        left: 150px;
+    }
+
+    .play-game-title {
+
+        border: 2px slid salmon;
+        font-size: 30px;
+        width: 300px;
+        margin: 0 auto 30px;
+        text-align: center;
+
+    }
+
+    .play-game-description {
+        width: 350px;
+        margin: 0 auto;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+
+    }
 
 }
